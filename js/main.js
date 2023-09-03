@@ -46,3 +46,25 @@ accordeonTitles.forEach.call(accordeonTitles, function (accordeonTitle){
         }
     })
 })
+
+      Fancybox.bind('[data-fancybox="gallery"]', {
+        Thumbs : {
+          type: "modern"
+        }
+        ,clickContent: function (current, event) {
+            if (current.type === "image") {
+         
+              const enlargedImage = document.createElement("img");
+              enlargedImage.src = current.src;
+            
+              return {
+                src: current.src,
+                type: "image",
+                content: enlargedImage
+              };
+            } else {
+              return false;
+            }
+
+          }
+        });

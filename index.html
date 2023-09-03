@@ -9,6 +9,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Yeseva+One&display=swap" rel="stylesheet">
   <title>Document</title>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
+
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
@@ -100,7 +107,7 @@
             <p class="products__item-price">10$</p>
             <h4 class="products__item-title">"Heart of Love"</h4>
             <p class="products__item-text">Scent: gentle scent of roses and vanilla. For creating a romantic atmosphere            </p>
-            <button class="button">Buy</button>\
+            <button class="button">Buy</button>
           </div>
           <div class="products__item">
             <img src="images/products-2.jpg " alt="" class="products__item-img">
@@ -204,7 +211,7 @@
                 Duration: <span>20 hours</span>
               </p>
               <p class="courses__price">
-                Price: $40
+                Price - $40
               </p>
               
               </p>
@@ -322,11 +329,11 @@
               <div class="swiper-slide">
                 <div class="feedback__item">
                   <div class="feedback__item-video">
-                    <img class="feedback__item-img" src="images/slide.jpg" alt="">
+                    <a href="images/slide.jpg" data-fancybox="gallery"><img class="feedback__item-img" src="images/slide.jpg" alt=""></a>
                   </div>
                   <div class="feedback__item-content">
                     <a href="#" class="feedback__item-sociallink" target="_blank">
-                      <img src="images/instagram.svg" alt="">
+                      <img class="social_instagram" src="images/instagram.svg" alt="">
                     </a>
                     <p class="feedback__item-name">Ivan Pylypenko
                     </p>
@@ -339,7 +346,7 @@
               <div class="swiper-slide">
                 <div class="feedback__item">
                   <div class="feedback__item-video">
-                    <img class="feedback__item-img" src="images/feedback-2.jpg" alt="">
+                    <a href="images/feedback-2.jpg" data-fancybox="gallery"><img class="feedback__item-img" src="images/feedback-2.jpg" alt=""></a>
                   </div>
                   <div class="feedback__item-content">
                     <a href="#" class="feedback__item-sociallink" target="_blank">
@@ -350,13 +357,15 @@
                     <p class="feedback__item-text">I ordered a heart-shaped candle for Valentine's Day for my boyfriend, and it was just incredible! The scent was very pleasant and romantic, and the heart shape was perfect for this holiday. I will definitely order more candles from this website!</p>
                     <button class="button feedback__item-btn">Buy this product
                     </button>
+                    
                   </div>
                 </div>
               </div>
+              
               <div class="swiper-slide">
                 <div class="feedback__item">
                   <div class="feedback__item-video">
-                    <img class="feedback__item-img" src="images/feedback-3.jpg" alt="">
+                    <a href="images/feedback-3.jpg" data-fancybox="gallery"><img class="feedback__item-img" src="images/feedback-3.jpg" alt=""></a>
                   </div>
                   <div class="feedback__item-content">
                     <a href="#" class="feedback__item-sociallink" target="_blank">
@@ -372,7 +381,7 @@
               <div class="swiper-slide">
                 <div class="feedback__item">
                   <div class="feedback__item-video">
-                    <img class="feedback__item-img" src="images/feedback-4.jpg" alt="">
+                    <a href="images/feedback-4.jpg" data-fancybox="gallery"><img class="feedback__item-img" src="images/feedback-4.jpg" alt=""></a>
                   </div>
                   <div class="feedback__item-content">
                     <a href="#" class="feedback__item-sociallink" target="_blank">
@@ -403,8 +412,7 @@
       Certificates provide additional trust and confidence for our customers.
       </p>
       </div>
-      
-          </p>
+    
         </div>
         <div class="certificates_content section--decor">
           <div class="certificates__slider">

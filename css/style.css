@@ -130,6 +130,19 @@ font-weight: 400;
     left: 248px;
 }
 
+.social_instagram{
+    transition: transform 100ms ease-in-out;
+
+}
+
+.social_instagram:hover{
+    opacity: 0.5;
+    transform: scale(1.4);
+
+}
+
+
+
 
 
 .top__content{
@@ -465,6 +478,7 @@ button:hover{
     padding: 15px 24px;
     bottom: 5px;
     left: 184px;
+    font-size: 14px;
 }
 
 .courses__title,
@@ -501,6 +515,8 @@ button:hover{
     position: relative;
     padding: 6px 10px 6px;
     width: 165px;
+    height: 60.4px;
+
     z-index: 4;
     bottom: 40px;
     right: -90px;
@@ -596,12 +612,19 @@ button:hover{
 .certificates_content{
     padding-bottom: 90px;
     overflow: hidden;
+    
 }
 .container__content{
     margin-right: 30px;
 }
 .certificates__slider .swiper-slide {
     text-align: center; 
+}
+.container.certificates__inner{
+    justify-content: center;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
 }
 /* .courses__content{
     gap: 50px 90px;
